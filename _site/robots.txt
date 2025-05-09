@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /django/
+Disallow: /wordpress/
+Allow: /
+Sitemap: https://sednabcn.github.io/web-development/sitemap.xml
