@@ -18,7 +18,7 @@ gem 'jekyll-seo-tag', '~> 2.7'
 gem 'sassc', '~> 2.4'
 
 # For syntax highlighting
-gem 'jekyll-scholar', '~> 5.0'  # Optional, if you want academic-style citation support
+#gem 'jekyll-scholar', '~> 5.0'  # Optional, if you want academic-style citation support
 
 # For markdown rendering
 gem 'kramdown', '~> 2.3'
@@ -39,3 +39,4 @@ end
 group :test do
   gem 'minitest', '~> 5.14'
 end
+gem 'bibtex-ruby', '>= 5.1.0'
