@@ -1,3 +1,14 @@
+
+defaults:
+  - scope:
+      path: "sitemap.xml"
+    values:
+      layout: nullxw
+
+
+plugins:
+- jekyll-sitemap
+
 exclude:
 - django
 - wordpress
