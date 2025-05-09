@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 
 # Specify your Jekyll version
 gem 'jekyll', '~> 3.9'
+gem "webrick" # if on Ruby 3.0+
+
 
 # Optional: Theme or other Jekyll plugins you may want to use
 gem 'jekyll-theme-slate', '~> 0.1'
