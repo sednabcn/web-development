@@ -1,0 +1,19 @@
+current directory: /home/agagora/Downloads/GITHUB/web-development/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/home/agagora/.rbenv/versions/3.3.4/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/agagora/Downloads/GITHUB/web-development/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250722-30583-mwnj76 sitelibdir\=./.gem.20250722-30583-mwnj76 clean
+
+current directory: /home/agagora/Downloads/GITHUB/web-development/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250722-30583-mwnj76 sitelibdir\=./.gem.20250722-30583-mwnj76
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/agagora/Downloads/GITHUB/web-development/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250722-30583-mwnj76 sitelibdir\=./.gem.20250722-30583-mwnj76 install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20250722-30583-mwnj76
+
+current directory: /home/agagora/Downloads/GITHUB/web-development/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250722-30583-mwnj76 sitelibdir\=./.gem.20250722-30583-mwnj76 clean

@@ -42,3 +42,5 @@ group :test do
   gem 'minitest', '~> 5.14'
 end
 gem 'bibtex-ruby', '>= 5.1.0'
+
+gem 'nokogiri', '~> 1.18.9'
