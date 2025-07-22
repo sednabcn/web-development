@@ -12,3 +12,8 @@ plugins:
 exclude:
 - django
 - wordpress
+- vendor/
+- vendor/bundle/
+- node_modules/
+- Gemfile
+- Gemfile.lock
