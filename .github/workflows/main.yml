@@ -1,0 +1,15 @@
+name: Update REXML
+on: workflow_dispatch
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+      - run: bundle update rexml
+      - uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: Update REXML to fix CVE
+          title: Update REXML to 3.4.2
