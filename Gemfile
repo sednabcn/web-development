@@ -43,5 +43,5 @@ group :test do
 end
 gem 'bibtex-ruby', '>= 5.1.0'
 
-gem 'nokogiri', '~> 1.18.9'
+gem 'nokogiri', '~> 1.19.1'
 gem 'faraday-retry'
